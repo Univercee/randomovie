@@ -10,5 +10,7 @@ const router = createBrowserRouter([
         path: "*",
         Component: error404View
     }
-])
+], {
+    basename: "/randomovie"
+})
 export default router
